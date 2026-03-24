@@ -103,6 +103,16 @@ onUnmounted(() => {
       </div>
 
     </div>
+
+    <!-- Footer -->
+    <div class="absolute bottom-6 left-0 right-0 text-center z-20 pointer-events-auto flex flex-col gap-1">
+      <p class="text-white/40 text-sm font-light tracking-wide">
+        Designed by <span class="text-white/60">mtdes23</span>
+      </p>
+      <a href="http://www.mtdes23.id.vn" target="_blank" class="text-white/40 text-sm font-light tracking-wide hover:text-white/80 transition-colors">
+        www.mtdes23.id.vn
+      </a>
+    </div>
   </div>
 </template>
 

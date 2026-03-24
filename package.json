@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "mtdes23 <http://www.mtdes23.id.vn>",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
