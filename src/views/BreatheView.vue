@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onUnmounted } from 'vue'
-import { RouterLink } from 'vue-router'
 import { Icon } from '@iconify/vue'
 
 const isBreathing = ref(false)
@@ -101,15 +100,6 @@ onUnmounted(() => {
           </div>
           {{ isBreathing ? 'Dừng lại' : 'Bắt đầu' }}
         </button>
-
-        <!-- Home Link -->
-        <RouterLink
-          to="/"
-          class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm text-text-dim transition hover:text-white hover:bg-white/5"
-        >
-          <Icon icon="lucide:arrow-left" class="size-4" />
-          Về trang chủ
-        </RouterLink>
       </div>
 
     </div>
